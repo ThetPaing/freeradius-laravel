@@ -18,6 +18,20 @@ And test with your user
     radtest -t pap youuser@email.com yourradcheckpassowrd '127.0.0.1:1812' 0 'testing123'
 ```
 
+### For Laravel Testing
+
+See installation from [Laravel](https://laravel.com) Docs.
+
+And migrate and seed database.
+
+```cmd
+    php artisan migrate --seed
+```
+
+User email - test@example.com
+
+User password - 12345678
+
 ## Requirement
 
 To start, you need to first install Freeradius and configure it to work with a MySQL database. Next, clone this repository and connect it to the Radius database. Then, run database migrations and you can begin testing. Good luck!
