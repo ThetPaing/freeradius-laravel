@@ -54,7 +54,7 @@ class RadPostAuthResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                // Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),
@@ -72,8 +72,8 @@ class RadPostAuthResource extends Resource
     {
         return [
             'index' => Pages\ListRadPostAuths::route('/'),
-            'create' => Pages\CreateRadPostAuth::route('/create'),
-            'edit' => Pages\EditRadPostAuth::route('/{record}/edit'),
+            // 'create' => Pages\CreateRadPostAuth::route('/create'),
+            // 'edit' => Pages\EditRadPostAuth::route('/{record}/edit'),
         ];
     }    
 }
